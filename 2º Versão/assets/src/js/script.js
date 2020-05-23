@@ -7,9 +7,8 @@ new Vue({
     },
     methods: {
         toggle() {
-            if (this.isbroken){
-            return
-            }
+            if (this.isbroken) return
+            
             this.source = (!this.checked) ? "../assets/src/img/lampada-acesa.jpg" : "../assets/src/img/lampada-apagada.jpg"
         },
         toBreakLamp() {
@@ -23,5 +22,3 @@ new Vue({
         }
     }
 })
-
-document.querySelector("input").addEventListener("")
