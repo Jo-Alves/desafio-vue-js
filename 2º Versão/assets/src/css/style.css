@@ -42,7 +42,6 @@ span::before {
 
 input:checked + span::before{
     content: "";
-    right: -2px;
     transform: translateX(100%);
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
