@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app" @dblclick.self="reset">
         <label>
-        <input type="checkbox" v-model="checked" v-on="{click: toggle}">
+            <input type="checkbox" v-model="checked" v-on="{click: toggle}">
             <span></span>
         </label>
         <img :src="source" alt="lampada" v-on="{click: toBreakLamp}">
